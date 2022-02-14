@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Game | Suit</title>
+    <link rel="stylesheet" href="game-play/styleGame.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <i class="fas fa-chevron-left fa-2x">
+            </i>
+        </a>
+        <img src="game-play/assets/assets/logo.jpg" alt="logo">
+        <h1>ROCK PAPER SCISSORS</h1>
+        <div class="healthStat">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+    </header>
+
+    <section class="game-container">
+        <!-- Player Part -->
+        <div class="player">
+            <h1>PLAYER 1</h1>
+            <div class="player-suit" name="player-choice">
+                <button class="ply-button">
+                    <img src="game-play/assets/assets/batu.png" alt="Rock">
+                </button>
+                <button class="ply-button">
+                    <img src="game-play/assets/assets/kertas.png" alt="Paper">
+                </button>
+                <button class="ply-button">
+                    <img src="game-play/assets/assets/gunting.png" alt="Scissors">
+                </button>
+            </div>
+        </div>
+
+        <!-- Result  -->
+        <div class="info">
+            <div class="result">
+                <h3>VS</h3>
+            </div>
+            <div class="refresh">
+                <img src="game-play/assets/assets/refresh.png" alt="refresh">
+            </div>
+        </div>
+
+        <!-- Computer Part -->
+        <div class="computer" id="computer">
+            <h1>COM</h1>
+            <ul class="computer-suit">
+                <li>
+                    <img src="game-play/assets/assets/batu.png" alt="Rock">
+                </li>
+                <li>
+                    <img src="game-play/assets/assets/kertas.png" alt="Paper">
+                </li>
+                <li>
+                    <img src="game-play/assets/assets/gunting.png" alt="Scissors">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="score">
+        <h4>SCORE :</h4>
+        <input type="text" name="score" id="score" value="0">
+    </section>
+
+
+    <script src="game-play/scriptGame.js"></script>
+    <script src="game-play/staticClass.js"></script>
+</body>
+
+</html>
