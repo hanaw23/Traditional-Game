@@ -1,2 +1,2 @@
 # Traditional-Game
-Landing page of traditional game
+Welcome to a suit jawa traditional game
